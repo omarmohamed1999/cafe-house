@@ -5,420 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            background-color: rgb(221, 219, 216);
-        }
-        
-        .a {
-            height: 60px;
-            background-color: black;
-            margin: -10px;
-            padding: 5px;
-        }
-        
-        .b {
-            width: 30px;
-            height: 35px;
-            position: relative;
-            top: -12px;
-            left: 15px;
-        }
-        
-        .c {
-            color: rgb(180, 144, 26);
-            display: inline-block;
-            position: relative;
-            top: -12px;
-            left: 25px;
-            font-size: 30px;
-            font-weight: bold;
-            font-style: italic;
-        }
-        
-        .d {
-            display: inline;
-            font-style: italic;
-            font-weight: bold;
-            position: relative;
-            top: -5px;
-            left: 13px;
-            color: rgb(177, 134, 25);
-            text-decoration: none;
-        }
-        
-        li {
-            display: inline;
-            padding: 10px;
-            margin: 10px;
-            font-size: 20px;
-            border-color: unset;
-            float: right;
-        }
-        
-        .d:hover {
-            color: white;
-        }
-        
-        .e {
-            background-color: rgb(43, 42, 42);
-            width: 105%;
-            height: 950px;
-            padding: 10px;
-            margin: -10px;
-            position: relative;
-            top: 10px;
-            left: 0px;
-        }
-        
-        .g {
-            font-size: 50px;
-            color: white;
-            position: relative;
-            top: -150px;
-            left: -60px;
-            font-style: italic;
-        }
-        
-        .h {
-            font-size: 70px;
-            color: rgb(175, 120, 2);
-            position: relative;
-            top: -230px;
-            left: -60px;
-        }
-        
-        .i {
-            color: rgb(207, 207, 207);
-            position: relative;
-            top: -300px;
-            left: -60px;
-            width: 620px;
-            white-space: wrap;
-        }
-        
-        .j {
-            position: relative;
-            top: -250px;
-            left: -60px;
-            width: 150px;
-            height: 50px;
-            border-radius: 20px;
-            background-image: url("70.png");
-            background-size: 150px, 150px;
-            font-size: 20px;
-            color: rgb(179, 122, 0);
-            font-weight: bold;
-            cursor: pointer;
-        }
-        
-        .k {
-            position: relative;
-            top: -250px;
-            left: 0px;
-            padding: 10px;
-            margin: -11px;
-        }
-        
-        .w {
-            font-size: 30px;
-            color: rgb(238, 167, 75);
-        }
-        
-        .q {
-            font-size: 25px;
-            font-weight: bold;
-            position: relative;
-            top: -50px;
-            left: 0px;
-        }
-        
-        .z {
-            position: relative;
-            top: -80px;
-            left: 0px;
-            width: 700px;
-            display: inline-block;
-        }
-        
-        .t {
-            display: inline-block;
-            width: 150px;
-            height: 150px;
-            position: relative;
-            top: -90px;
-            left: 80px;
-            border-radius: 50%;
-            border: 8px solid white;
-            box-shadow: 0px 20px 5px rgb(194, 194, 194);
-        }
-        
-        .p {
-            width: 150px;
-            height: 50px;
-            border-radius: 20px;
-            background-image: url("70.png");
-            background-size: cover;
-            font-size: 20px;
-            color: rgb(179, 122, 0);
-            font-weight: bold;
-            cursor: pointer;
-        }
-        
-        .tt {
-            font-size: 30px;
-            color: rgb(194, 145, 81);
-            display: inline-block;
-            margin: 20px;
-        }
-        
-        .aa {
-            padding: 10px;
-            display: inline-block;
-            width: 250px;
-            margin: 20px;
-            background-color: white;
-            height: 400px;
-        }
-        
-        .aa:hover {
-            box-shadow: 0px 12px 3px rgb(197, 197, 197);
-        }
-        
-        .ab {
-            padding: 10px;
-            display: inline-block;
-            width: 250px;
-            margin: 20px;
-            background-color: white;
-            height: 400px;
-        }
-        
-        .ab:hover {
-            box-shadow: 0px 12px 3px rgb(197, 197, 197);
-        }
-        
-        .ac {
-            padding: 10px;
-            display: inline-block;
-            width: 250px;
-            margin: 20px;
-            background-color: white;
-            height: 400px;
-        }
-        
-        .ac:hover {
-            box-shadow: 0px 12px 3px rgb(197, 197, 197);
-        }
-        
-        .kk {
-            display: inline-block;
-        }
-        
-        .gg {
-            padding: -40px;
-            margin: -10px;
-        }
-        
-        .gf {
-            padding: -40px;
-            margin: -10px;
-        }
-        
-        .gh {
-            padding: -40px;
-            margin: -10px;
-        }
-        
-        .ss {
-            font-size: 50px;
-            color: rgb(233, 233, 233);
-            font-style: italic;
-            font-weight: bold;
-        }
-        
-        .vv {
-            border-radius: 50%;
-            background-color: rgb(88, 58, 0);
-            color: darkgrey;
-            height: 100px;
-            width: 80px;
-            cursor: pointer;
-        }
-        
-        .vv:hover {
-            color: rgb(197, 141, 21);
-        }
-        
-        .dd {
-            font-size: 50px;
-            color: rgb(194, 145, 81);
-            display: inline-block;
-            margin: 20px;
-        }
-        
-        .mmm {
-            display: inline-block;
-        }
-        
-        .zz {
-            display: inline-block;
-            margin: 10px;
-            padding-left: 20px;
-        }
-        
-        .zx {
-            display: inline-block;
-            position: relative;
-            top: -195px;
-            left: 0px;
-        }
-        
-        .zc {
-            display: inline-block;
-            position: relative;
-            top: -200px;
-            left: 580px;
-            margin: 10px;
-        }
-        
-        .zv {
-            display: inline-block;
-            position: relative;
-            top: -200px;
-            left: 580px;
-            margin: 10px;
-        }
-        
-        .za {
-            border: 10px solid white;
-        }
-        
-        .zm {
-            display: inline-block;
-            width: 600px;
-            position: relative;
-            top: -250px;
-            left: 100px;
-        }
-        
-        .zn {
-            display: inline-block;
-        }
-        
-        .sd {
-            width: 100%;
-            height: 400px;
-            background-color: rgb(46, 46, 46);
-            color: white;
-            display: inline-block;
-        }
-        
-        .fg {
-            width: 80px;
-            display: inline-block;
-        }
-    </style>
-</head>
+    <link rel="stylesheet" href="Cafe House.css" type="text/css" />
 
-<body>
-    <div class="a">
+    <body>
+        <div class="a">
+            <img class="b" src="69.png">
+            <p class="c">Cafe House</p>
+            <li>
+                <a href="# " class="d ">Contact</a>
+            </li>
+            <li>
+                <a href="# " class="d ">Menu</a>
+            </li>
+            <li>
+                <a href="# " class="d ">Today Specil</a>
+            </li>
+            <li>
+                <a href="# " class="d ">Home</a>
+            </li>
+        </div>
+        <div class="e">
+            <img class="f" src="71.png">
+            <img class="f" src="71.png">
+            <img class="f" src="71.png">
+            <center>
+                <p class="g">----WEICOM TO----</p>
+                <p class="h">CAFE HOUSE</p>
+                <p class="i"> Cafe House template is a mobile-friendly responsive Bootstrap v3.3.5 layout by templatemo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                    dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+
+                </p><br>
+                <button class="j">DETAILS</button>
+            </center><br>
+            <div class="l"></div>
+            <img class="k" src="70.png">
+
+        </div><br><br><br><br><br><br><br><br><br>
+        <p class="w">The Best Coffee for you</p><br>
+        <p class="q">Cafe House</p><br>
+        <p class="z">This is free HTML5 website template from templatemo. Fndimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+            Donec vitae sapien ut libero venenatis faucibus. Ettiam sit amet orci eget eros faucibus tincidunt.</p>
+        <img class="t" src="72.jpg"><br>
+        <button class="p">READ MORE</button><br><br><br><br><br><br>
         <img class="b" src="69.png">
-        <p class="c">Cafe House</p>
-        <li>
-            <a href="# " class="d ">Contact</a>
-        </li>
-        <li>
-            <a href="# " class="d ">Menu</a>
-        </li>
-        <li>
-            <a href="# " class="d ">Today Specil</a>
-        </li>
-        <li>
-            <a href="# " class="d ">Home</a>
-        </li>
-    </div>
-    <div class="e">
-        <img class="f" src="71.png">
-        <img class="f" src="71.png">
-        <img class="f" src="71.png">
-        <center>
-            <p class="g">----WEICOM TO----</p>
-            <p class="h">CAFE HOUSE</p>
-            <p class="i"> Cafe House template is a mobile-friendly responsive Bootstrap v3.3.5 layout by templatemo. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        <p class="tt">
+            Popular Items
+        </p><br>
+        <div class="kk">
+            <div class="aa">
+                <img class="gg" src="73.jpg" width="270"><br>
+                <center>
+                    <p class="ff"><span class="ss">americano</span><br> Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</span>
+                    </p><br><br><br><br>
+                    <button class="vv">ORDER NOW</button>
+                </center>
+            </div>
+            <div class="ab">
+                <img class="gf" src="74.jpg" width="270"><br>
+                <center>
+                    <p class="ff"><span class="ss">appuccino</span><br> Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p><br><br><br><br>
+                    <button class="vv">ORDER NOW</button>
 
-            </p><br>
-            <button class="j">DETAILS</button>
-        </center><br>
-        <div class="l"></div>
-        <img class="k" src="70.png">
+                </center>
+            </div>
+            <div class="ac">
+                <img class="gh" src="75.jpg" width="270"><br>
+                <center>
+                    <p class="ff"><span class="ss">mocha </span> <br>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p><br><br><br><br>
+                    <button class="vv">ORDER NOW</button>
 
-    </div><br><br><br><br><br><br><br><br><br>
-    <p class="w">The Best Coffee for you</p><br>
-    <p class="q">Cafe House</p><br>
-    <p class="z">This is free HTML5 website template from templatemo. Fndimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
-        Donec vitae sapien ut libero venenatis faucibus. Ettiam sit amet orci eget eros faucibus tincidunt.</p>
-    <img class="t" src="72.jpg"><br>
-    <button class="p">READ MORE</button><br><br><br><br><br><br>
-    <img class="b" src="69.png">
-    <p class="tt">
-        Popular Items
-    </p><br>
-    <div class="kk">
-        <div class="aa">
-            <img class="gg" src="73.jpg" width="270"><br>
-            <center>
-                <p class="ff"><span class="ss">americano</span><br> Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</span>
-                </p><br><br><br><br>
-                <button class="vv">ORDER NOW</button>
-            </center>
-        </div>
-        <div class="ab">
-            <img class="gf" src="74.jpg" width="270"><br>
-            <center>
-                <p class="ff"><span class="ss">appuccino</span><br> Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p><br><br><br><br>
-                <button class="vv">ORDER NOW</button>
+                </center>
+            </div>
+        </div><br><br>
+        <br><img class="b" src="69.png">
+        <p class="dd">
+            Today's Special
+        </p><br>
+        <div class="mmm">
+            <div class="zz">
+                <img class="za" src="76.jpg">
+            </div>
+            <div class="zx">
+                <img class="za" src="77.jpg">
+            </div>
+            <div class="zc">
+                <img class="za" src="78.jpg">
 
-            </center>
+            </div>
+            <div class="zv">
+                <img class="za" src="79.jpg">
+            </div>
         </div>
-        <div class="ac">
-            <img class="gh" src="75.jpg" width="270"><br>
-            <center>
-                <p class="ff"><span class="ss">mocha </span> <br>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p><br><br><br><br>
-                <button class="vv">ORDER NOW</button>
+        <br><img class="b" src="69.png">
+        <p class="dd">
+            Daily Menu
+        </p><br><br>
+        <img class="zn" src="80.png">
+        <p class="zm">Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.<br><br>Tellus eget condimentum rhoncus. <br><br>Sem quam semper
+            libero.
+            <br> <br> Sit amet adipiscing sem neque sed ipsum.<br><br> Nam quam nunc, blandit vel, luctus pulvinar.<br><br> Maecenas nec odio et ante tincidunt tempus.<br><br> Donec vitae sapien ut libero ventenatis faucibus</p><br>
+        <button class="p">READ MORE</button><br><br><br>
+        <img src="81.png">
 
-            </center>
-        </div>
-    </div><br><br>
-    <br><img class="b" src="69.png">
-    <p class="dd">
-        Today's Special
-    </p><br>
-    <div class="mmm">
-        <div class="zz">
-            <img class="za" src="76.jpg">
-        </div>
-        <div class="zx">
-            <img class="za" src="77.jpg">
-        </div>
-        <div class="zc">
-            <img class="za" src="78.jpg">
-
-        </div>
-        <div class="zv">
-            <img class="za" src="79.jpg">
-        </div>
-    </div>
-    <br><img class="b" src="69.png">
-    <p class="dd">
-        Daily Menu
-    </p><br><br>
-    <img class="zn" src="80.png">
-    <p class="zm">Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.<br><br>Tellus eget condimentum rhoncus. <br><br>Sem quam semper libero.<br>        <br> Sit amet adipiscing sem neque sed ipsum.<br><br> Nam quam nunc, blandit vel, luctus pulvinar.<br><br> Maecenas nec odio et ante tincidunt tempus.<br><br> Donec vitae sapien ut libero ventenatis faucibus</p><br>
-    <button class="p">READ MORE</button><br><br><br>
-    <img src="81.png">
-
-</body>
+    </body>
 
 </html>
